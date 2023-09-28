@@ -8,6 +8,9 @@ $fontsize-h3: 22px;
 $fontsize-h4: 18px;
 $fontsize-label: 16px;
 
+$opacity-short: 0.6;
+$opacity-long:0.8;
+
 $primary-color: #111;
 $alternative-color: #4A4FF2;
 
@@ -18,13 +21,15 @@ $primary-font: 'Mulish', sans-serif;
     font-family: $primary-font;
     font-style: normal;
     font-weight: 700;
+    //dont forget to add line-height and font-size
 }
 
 @mixin paragrafs {
     color: $primary-color;
-    font-family: $primary-font
+    font-family: $primary-font;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     font-size: 16px;
+    //dont forget to add opacity
 }

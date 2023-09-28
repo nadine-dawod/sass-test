@@ -1,0 +1,16 @@
+.img__logo {
+    width: 90px;
+    height: 19;
+}
+
+.page-link {
+    @include headings;
+    line-height: normal;
+    font-size: $fontsize-h4;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: end;
+}
