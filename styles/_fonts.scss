@@ -1,0 +1,30 @@
+
+$lineheight-small: 55px;
+$lineheight-large: 60px;
+
+$fontsize-h1: 40px;
+$fontsize-h2: 28px;
+$fontsize-h3: 22px;
+$fontsize-h4: 18px;
+$fontsize-label: 16px;
+
+$primary-color: #111;
+$alternative-color: #4A4FF2;
+
+$primary-font: 'Mulish', sans-serif;
+
+@mixin headings {
+    color: $primary-color;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin paragrafs {
+    color: $primary-color;
+    font-family: $primary-font
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+}
