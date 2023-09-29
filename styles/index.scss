@@ -6,7 +6,12 @@
 
 
 body {
-    height: 100vh;
-    width: 100vw;
     background-color: rgb(255, 255, 255);
+    max-width: fit-content;
+}
+
+main {
+    position: relative;
+        left: 10%;
+        right: 10%;
 }
