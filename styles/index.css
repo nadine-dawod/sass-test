@@ -1,2 +1,2 @@
-.img__logo{width:90px;height:19px}.page-link{color:#111;font-family:"Mulish",sans-serif;font-style:normal;font-weight:700;line-height:normal;font-size:18px}.header__nav{display:flex;justify-content:flex-end}
+header{height:100px;position:sticky;top:0;background-color:rgb(255,255,255)}.head__img--logo{width:90px;height:19px;position:relative;top:30px;left:75px}.head__page-link{color:#111;font-family:"Mulish",sans-serif;font-style:normal;font-weight:700;line-height:normal;font-size:18px;text-decoration:none}.head__page-link:hover{text-decoration:underline;color:#4A4FF2}.head__nav{display:flex;justify-content:flex-end;gap:30px;position:relative;right:125px}body{height:100vh;width:100vw;background-color:rgb(255,255,255)}
 /*# sourceMappingURL=index.css.map */
