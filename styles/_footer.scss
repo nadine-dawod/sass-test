@@ -1,0 +1,56 @@
+@import 'fonts';
+
+footer {
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+.foot__img--logo {
+    width: 90px;
+    height: 19px;
+    position: relative;
+        left: 75px;
+        top: 30px;
+}
+
+.foot__nav {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+        right: 125px;
+    gap: 30px;
+}
+
+.foot__nav__icons {
+    position: relative;
+    left: 50px; 
+}
+
+.foot__page-link{
+    @include headings;
+    line-height: normal;
+    font-size: $fontsize-h4;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.foot__page-link:hover {
+    text-decoration: underline;
+    color: $alternative-color;
+}
+
+.fa-brands {
+    color: black;
+    width: 50px;
+    height: 50px;
+}
+
+
+.fa-brands:hover {
+    animation-name: fa-brands-hover;
+    animation-duration: 5s;
+}
+@keyframes fa-brands-hover {
+    from {color: black;}
+    to {color: $alternative-color;}
+}

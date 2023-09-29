@@ -1,0 +1,29 @@
+@import 'fonts';
+
+.main-index__intro-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+        right: 125px;
+        left: 125px;
+}
+
+h1 {
+    @include headings;
+    font-size: $fontsize-h1;
+    line-height: $lineheight-large;
+    span {color: $alternative-color;}
+}
+
+h3 {
+    @include headings;
+    font-size: $fontsize-h3;
+    line-height: normal;
+    color: $alternative-color;
+}
+
+p {
+    @include paragrafs;
+    opacity: $opacity-short;
+}

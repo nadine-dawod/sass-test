@@ -15,6 +15,14 @@ header {
         left: 75px;
 }
 
+.head__nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    position: relative;
+        right: 125px;
+}
+
 .head__page-link {
     @include headings;
     line-height: normal;
@@ -25,12 +33,4 @@ header {
 .head__page-link:hover {
     text-decoration: underline;
     color: $alternative-color;
-}
-
-.head__nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 30px;
-    position: relative;
-        right: 125px;
 }
