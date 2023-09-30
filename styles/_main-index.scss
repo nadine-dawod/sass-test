@@ -42,6 +42,7 @@ p {
     opacity: $opacity-short;
 }
 .p-alternative  {
+    @include paragrafs;
     opacity: 0.8;
 }
 
@@ -78,14 +79,37 @@ p {
 
 .main-index__fourth-sec {
     position: relative;
-        top: 500px;
+        top: 600px;
         bottom: 200px;
+        display: grid;
+        grid-template-areas: 
+        'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-1 main-index__fourth-sec--Head3-1 main-index__fourth-sec--para2-1'
+        'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-1 main-index__fourth-sec--Para1-1 main-index__fourth-sec--para2-1'
+        'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-2 main-index__fourth-sec--Head3-1 main-index__fourth-sec--para2-2'
+        'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-2 main-index__fourth-sec--Para1-2 main-index__fourth-sec--para2-2'
+        'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-3 main-index__fourth-sec--Head3-3 main-index__fourth-sec--para2-3'
+        'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-3 main-index__fourth-sec--Para1-3 main-index__fourth-sec--para2-3'
+        'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-4 main-index__fourth-sec--Head3-4 main-index__fourth-sec--para2-4'
+        'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-4 main-index__fourth-sec--Para1-4 main-index__fourth-sec--para2-4'        
 
+
+
+
+
+/*     grid-template-columns: 4fr 2fr 2fr 1fr;
+    grid-template-rows: repeat(4, 1fr); */
 }
+/* 
+.main-index__fourth-sec--Head1-1 {}
+.main-index__fourth-sec--Head1-2 {}
 
-.main-index__fourth-sec--top {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+.main-index__fourth-sec--Head2-1 {}
+.main-index__fourth-sec--Head2-2 {}
+.main-index__fourth-sec--Head2-3 {}
+.main-index__fourth-sec--Head2-4 {}
 
-}
+.main-index__fourth-sec--Head3-1 {}
+.main-index__fourth-sec--Head3-2 {}
+.main-index__fourth-sec--Head3-3 {}
+.main-index__fourth-sec--Head3-4 {}
+ */
