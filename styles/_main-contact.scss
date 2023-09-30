@@ -5,3 +5,66 @@ h1 {
     font-size: $fontsize-h1;
     line-height: $lineheight-small;
 }
+
+p {
+    @include paragrafs;
+    opacity: 0.8;
+}
+
+label {
+    @include paragrafs;
+    opacity: 0.8;
+}
+
+.main-contact__intro-text {
+    position: relative;
+        top: 150px;
+        left: 50px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+input {
+    width: 300px;
+    border: none;
+    border-top: 1px solid rgb(128, 128, 128, 0.5);
+    outline: none;
+        :focus {border: 1px solid rgb(128, 128, 128, 0.5); }
+}
+
+textarea {
+    width: 300px;
+    border: none;
+    border-top: 1px solid rgb(128, 128, 128, 0.5);
+    outline: none;
+    resize: none;
+}
+
+input:focus {border: 1px solid rgb(128, 128, 128, 0.5)}
+textarea:focus {border: 1px solid rgb(128, 128, 128, 0.5)}
+
+button {
+    width: 125px;
+    height: 50px;
+    background-color: $alternative-color;
+    border: none;
+    border-radius: 5px;
+    @include paragrafs;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid $alternative-color;
+    color: $alternative-color;
+    cursor: pointer;
+
+}
+
+iframe {
+    position: relative;
+        top: 200px;
+        left: 50px;      
+    border-radius: 5px;
+}
