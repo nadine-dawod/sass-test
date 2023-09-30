@@ -1,1 +1,61 @@
 @import 'fonts';
+
+h1 {
+    @include headings;
+    font-size: $fontsize-h1;
+    line-height: $lineheight-small;
+}
+
+p {
+    @include paragrafs;
+    opacity: 0.8;
+}
+
+h4 {
+    @include headings;
+    font-size: $fontsize-h4;
+    line-height: normal;
+}
+
+.main-project__intro-text {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-project__intro-text-right {
+    display: flex;
+    gap: 25px;
+}
+
+.main-project__intro-text-right-1 {
+    opacity: 0.5;
+}
+
+.main-project__img-large{
+    width: 1100px;
+    position: relative;
+        top: 50px;
+}
+
+.main-project__info-text {
+    width: 1100px;
+    position: relative;
+        top: 100px;
+        left: 15px;
+    text-align: left;
+}
+
+.main-project__img-row {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+        top: 150px;
+        bottom: 100px;
+}
+/* I realise that I have some troubles understanding the measures,
+for example how wide a page should be and what measures to add to items
+etc - i remember you said something about putting max-width: 100%, but I
+dont understand it and cant find good explanations - do you have any resource
+tips on where I can read up on this? 
+Now there is this gap from the last element to the footer - why is that?
+This gets me very confused!*/

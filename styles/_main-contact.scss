@@ -1,1 +1,7 @@
 @import 'fonts';
+
+h1 {
+    @include headings;
+    font-size: $fontsize-h1;
+    line-height: $lineheight-small;
+}

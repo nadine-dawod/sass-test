@@ -40,6 +40,7 @@ h4 {
 p {
     @include paragrafs;
     opacity: $opacity-short;
+    span {opacity: 0.8;}
 }
 .p-alternative  {
     @include paragrafs;
