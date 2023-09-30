@@ -78,38 +78,48 @@ p {
 }
 
 .main-index__fourth-sec {
+    max-width: 1100px;
+    max-height: 2000px;
     position: relative;
         top: 600px;
         bottom: 200px;
         display: grid;
-        grid-template-areas: 
-        'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-1 main-index__fourth-sec--Head3-1 main-index__fourth-sec--para2-1'
-        'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-1 main-index__fourth-sec--Para1-1 main-index__fourth-sec--para2-1'
-        'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-2 main-index__fourth-sec--Head3-1 main-index__fourth-sec--para2-2'
-        'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-2 main-index__fourth-sec--Para1-2 main-index__fourth-sec--para2-2'
-        'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-3 main-index__fourth-sec--Head3-3 main-index__fourth-sec--para2-3'
-        'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-3 main-index__fourth-sec--Para1-3 main-index__fourth-sec--para2-3'
-        'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-4 main-index__fourth-sec--Head3-4 main-index__fourth-sec--para2-4'
-        'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-4 main-index__fourth-sec--Para1-4 main-index__fourth-sec--para2-4'        
-
-
-
-
-
-/*     grid-template-columns: 4fr 2fr 2fr 1fr;
-    grid-template-rows: repeat(4, 1fr); */
+    grid-template-columns: 4fr 2fr 2fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    gap: -5px -5px;
 }
-/* 
-.main-index__fourth-sec--Head1-1 {}
-.main-index__fourth-sec--Head1-2 {}
 
-.main-index__fourth-sec--Head2-1 {}
-.main-index__fourth-sec--Head2-2 {}
-.main-index__fourth-sec--Head2-3 {}
-.main-index__fourth-sec--Head2-4 {}
+.main-index__fourth-sec--Head1-1 {grid-area: 1 / 1 / span 4/ 2;}
+.main-index__fourth-sec--Head1-2 {grid-area: 5 / 1 / span 4 / 2;}
 
-.main-index__fourth-sec--Head3-1 {}
-.main-index__fourth-sec--Head3-2 {}
-.main-index__fourth-sec--Head3-3 {}
-.main-index__fourth-sec--Head3-4 {}
- */
+.main-index__fourth-sec--Head2-1 {grid-area: 1 / 2 / 3 / 3;}
+.main-index__fourth-sec--Head2-2 {grid-area: 3 / 2 / 5 / 3;}
+.main-index__fourth-sec--Head2-3 {grid-area: 5 / 2 / 7 / 3;}
+.main-index__fourth-sec--Head2-4 {grid-area: 7 / 2 / 9 / 3;}
+
+.main-index__fourth-sec--Para1-1 {grid-area: 1 / 3 / 3 / 4;}
+.main-index__fourth-sec--Para1-2 {grid-area: 3 / 3 / 5 / 4;}
+.main-index__fourth-sec--Para1-3 {grid-area: 5 / 3 / 7 / 4;}
+.main-index__fourth-sec--Para1-4 {grid-area: 7 / 3 / 9 / 4;}
+
+.main-index__fourth-sec--Para2-1 {grid-area: 1 / 4 / 2 / 5;}
+.main-index__fourth-sec--Para2-2 {grid-area: 3 / 4 / 5 / 5;}
+.main-index__fourth-sec--Para2-3 {grid-area: 5 / 4 / 7 / 5;}
+.main-index__fourth-sec--Para2-4 {grid-area: 7 / 4 / 9 / 5;}
+
+
+
+/*  'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-1 main-index__fourth-sec--Head3-1 main-index__fourth-sec--para2-1'
+ 'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-1 main-index__fourth-sec--Para1-1 main-index__fourth-sec--para2-1'
+ 'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-2 main-index__fourth-sec--Head3-1 main-index__fourth-sec--para2-2'
+ 'main-index__fourth-sec--Head1-1 main-index__fourth-sec--Head2-2 main-index__fourth-sec--Para1-2 main-index__fourth-sec--para2-2'
+ 'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-3 main-index__fourth-sec--Head3-3 main-index__fourth-sec--para2-3'
+ 'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-3 main-index__fourth-sec--Para1-3 main-index__fourth-sec--para2-3'
+ 'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-4 main-index__fourth-sec--Head3-4 main-index__fourth-sec--para2-4'
+ 'main-index__fourth-sec--Head1-2 main-index__fourth-sec--Head2-4 main-index__fourth-sec--Para1-4 main-index__fourth-sec--para2-4'  
+ I wanted to use grid-template-area for the grid but didn't get the resultat I wanted. Is there anything wrong with the code?
+ */       
+
+
+
+
