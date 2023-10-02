@@ -12,17 +12,17 @@ header {
 .head__img--logo {
     width: 90px;
     height: 19px;
-    position: relative;
-        top: 30px;
-        left: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
 }
 
 .head__nav {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     gap: 30px;
-    position: relative;
-        right: 125px;
 }
 
 .head__page-link {

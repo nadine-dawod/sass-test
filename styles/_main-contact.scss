@@ -26,7 +26,8 @@ label {
 
 }
 input {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     border: none;
     border-top: 1px solid rgb(128, 128, 128, 0.5);
     outline: none;
@@ -34,7 +35,8 @@ input {
 }
 
 textarea {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     border: none;
     border-top: 1px solid rgb(128, 128, 128, 0.5);
     outline: none;

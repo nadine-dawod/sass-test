@@ -19,6 +19,7 @@ h4 {
 
 .main-project__intro-text {
     max-width: 1100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -32,13 +33,16 @@ h4 {
 }
 
 .main-project__img-large{
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
     position: relative;
         top: 50px;
 }
 
 .main-project__info-text {
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
+
     position: relative;
         top: 100px;
         left: 15px;
@@ -52,10 +56,3 @@ h4 {
         top: 150px;
         bottom: 100px;
 }
-/* I realise that I have some troubles understanding the measures,
-for example how wide a page should be and what measures to add to items
-etc - i remember you said something about putting max-width: 100%, but I
-dont understand it and cant find good explanations - do you have any resource
-tips on where I can read up on this? 
-Now there is this gap from the last element to the footer - why is that?
-This gets me very confused!*/

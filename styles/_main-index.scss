@@ -8,7 +8,7 @@
 
 .main-index-sec__intro-text--right{
     position: relative;
-    left: 250px;
+        left: 250px;
 }
 
 h1 {
@@ -52,7 +52,9 @@ p {
         top: 200px;
         bottom: 200px;
     max-width: 1100px;
+    width: 100%;
     max-height: 2000px;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr auto auto 1fr;
@@ -62,6 +64,7 @@ p {
 .main-index__img-grid--img {
     height: auto;
     max-width: 350px;
+    width: 100%;
     align-self: center;
 }
 
