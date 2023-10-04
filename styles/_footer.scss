@@ -5,32 +5,18 @@ footer {
     max-width: 1100px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    position: relative;
-        top: 500px; 
-        /*it didn't work to write bottom: 0px to get the result 
-        to get the footer down in the end of the page - why?*/
+    margin-top: 50px;
 }
 
 .foot__img--logo {
     width: 90px;
     height: 19px;
-    position: relative;
-        left: 75px;
-        top: 125px;
 }
 
 .foot__nav {
     display: flex;
     justify-content: flex-end;
-    position: relative;
-        right: 100px;
-        top: 100px;
     gap: 30px;
-}
-
-.foot__nav__icons {
-    position: relative;
-        left: 70px;
 }
 
 .foot__page-link{
@@ -51,7 +37,6 @@ footer {
     width: 50px;
     height: 50px;
 }
-
 
 .fa-brands:hover {
     animation-name: fa-brands-hover;

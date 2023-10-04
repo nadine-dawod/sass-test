@@ -1,14 +1,13 @@
 @import 'fonts';
 
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 .main-index__intro-text {
     display: flex;
     align-items: flex-end;
-}
-
-.main-index-sec__intro-text--right{
-    position: relative;
-        left: 250px;
 }
 
 h1 {
@@ -48,9 +47,6 @@ p {
 }
 
 .main-index__img-grid {
-    position: relative;
-        top: 200px;
-        bottom: 200px;
     max-width: 1100px;
     width: 100%;
     max-height: 2000px;
@@ -59,35 +55,36 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr auto auto 1fr;
     grid-gap: 20px 20px;
+    margin-bottom: 50px;
 } 
 
 .main-index__img-grid--img {
-    height: auto;
+    min-height: auto;
     max-width: 350px;
     width: 100%;
     align-self: center;
 }
 
+
 .main-index__third-sec {
-    position: relative;
-        top: 500px;
-        bottom: 200px;
     display: flex;
+    margin-top: 50px;
+    /* How do I fix this? I think this is where 
+    the problem started at first which made me use position:relative and
+    then it cascaded and I needed it on many places. But why does this section start below
+    the main-index__img-grid section? As you can see I have tried with margin-top on this elemebt
+    and margin-bottom on the img-grid element. How do I solve it?*/
 }
+
 .main-index__third-sec--right {
     display: flex;
-    position: relative;
-        left: 250px;
     gap: 50px;
 }
 
 .main-index__fourth-sec {
     max-width: 1100px;
     max-height: 2000px;
-    position: relative;
-        top: 600px;
-        bottom: 200px;
-        display: grid;
+    display: grid;
     grid-template-columns: 4fr 2fr 2fr 1fr;
     grid-template-rows: repeat(10, 1fr);
     gap: -5px -5px;
