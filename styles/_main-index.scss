@@ -49,7 +49,7 @@ p {
 .main-index__img-grid {
     max-width: 1100px;
     width: 100%;
-    max-height: 2000px;
+    min-height: 2000px;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -68,12 +68,8 @@ p {
 
 .main-index__third-sec {
     display: flex;
+    justify-content: space-evenly;
     margin-top: 50px;
-    /* How do I fix this? I think this is where 
-    the problem started at first which made me use position:relative and
-    then it cascaded and I needed it on many places. But why does this section start below
-    the main-index__img-grid section? As you can see I have tried with margin-top on this elemebt
-    and margin-bottom on the img-grid element. How do I solve it?*/
 }
 
 .main-index__third-sec--right {
